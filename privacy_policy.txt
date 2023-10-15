@@ -1,0 +1,32 @@
+# Privacy Policy
+
+This is a simple privacy policy for Saulala app.
+
+
+## Collection of Routine Information
+
+Saulala collects no data or information about the user.
+
+
+## Advertisement and Other Third Parties
+
+Saulala application contains no advertisements.
+
+## Links to Third Party Websites
+
+We have included links on this app for your use and reference. We are not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these websites may differ from our own.
+
+
+## Security
+
+This application requires no connection to the internet.
+This application requires Read/Write permission to your storage in order to store "Presets" and "Settings", to read raw files and write .jpg files.
+
+
+## Changes To This Privacy PolicyThis Privacy Policy is effective as of 2023/10/15 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.
+We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically.
+
+
+## Contact Information
+
+For any questions or concerns regarding the privacy policy, please send us an email to hello@studiopetrikas.com.
