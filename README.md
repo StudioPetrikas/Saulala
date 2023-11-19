@@ -24,6 +24,7 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.2.5 / 2023/11/19
 Global changes:
 
 - Fixed a cropping issue where the cropping tool became unstable when cropping Landscape images with 16:9 ratio
