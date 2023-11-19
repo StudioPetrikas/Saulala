@@ -22,3 +22,26 @@ I use "Logcat Reader Pro". Filter by "Python".
 - If your native Android Camera App does not support .DNG capture, use Open Camera form the Android Store.
 - Some Android galleries allow "Open As". Select the .DNG, open as, Saulala. Otherwise, open via launching the app itself.
 - Settings / Presets are deleted on app Uninstall
+
+## Changelog:
+Global changes:
+
+- Fixed a cropping issue where the cropping tool became unstable when cropping Landscape images with 16:9 ratio
+- Added the ability to add a frame to the exported image (not previewed, can be turned on in export pup-up)
+- Added frame settings (in the Settings screen): Black or White frame, Rounded or sharp corners, "Meta Text" (Captured, Developed, Author)
+- "Fade" has been removed
+- "Target Luminance" has been added
+- "Target Black" has been added
+- Fixed an issue where keyboard could overlay the "Author" text input box
+- Fixed another crop bug that allowed crosshairs move outside the boundary of the image
+- Added 'Green / Peach' sauce based on Troy Sobotka's 'Golden Appearance'
+- Added '2399' sauce by Juan Pablo Zambrano
+- Added a "Bad file" error to the Development screen
+- Purity is now slightly pre and slightly post operation
+- Added a clipping (at the end of pipeline) indicator.
+- Fixed some more Cropping bugs, too many to mention all.
+- A bit of code clean-up
+- Slope is now Exposure and has a range from -5 to 5
+- Restructured and tidied up the pipeline (Saving up to 2GB of RAM on very large files)
+- Got rid of the "Pre" and "Post" pipeline indicators on the main Develop screen
+- Updated info boxes
