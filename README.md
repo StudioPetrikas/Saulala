@@ -1,5 +1,7 @@
 # Saulala
 Issue tracker for Saulala alpha
+Download on Android Play Store: https://play.google.com/store/apps/details?id=com.saulala.saulala
+www.saulala.com
 
 ## Known issues:
 Known (big) bugs:
