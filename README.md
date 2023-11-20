@@ -12,7 +12,7 @@ Known (big) bugs:
 I recommend installing a logcat reader of sorts. Error reporting is still sparse, but I've got a bunch of print commands that should help when trying to swat bugs. 
 I use "Logcat Reader Pro". Filter by "Python". 
 
-## Alpha crash-course:
+## Crash-course:
 
 - The app doesn't connect to the internet, you can firewall it if you wish
 - All photos are tagged with sRGB colour profile. Check if your Android display settings are set to "Natural" or "sRGB" to see what you're getting.
