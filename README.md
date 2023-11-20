@@ -1,5 +1,5 @@
 # Saulala
-Issue tracker for Saulala alpha
+Issue tracker for Saulala beta
 
 Download on Android Play Store: https://play.google.com/store/apps/details?id=com.saulala.saulala  
 www.saulala.com
