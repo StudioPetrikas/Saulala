@@ -1,13 +1,12 @@
 # Saulala
-Issue tracker for Saulala beta
+Issue tracker for Saulala beta - A free camera-native file (raw) developer, that uses AgX as its backbone. 
 
-Download on Android Play Store: https://play.google.com/store/apps/details?id=com.saulala.saulala  
+<a href='https://play.google.com/store/apps/details?id=com.saulala.saulala&hl=en_GB&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img width="200px" height="auto" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+
 www.saulala.com
 
-## Known issues:
-Known (big) bugs:
-
-- App becomes unresponsive after switching tasks
+## Usage instructions:
+https://youtu.be/1JoZ9NqBmjs?t=315
 
 I recommend installing a logcat reader of sorts. Error reporting is still sparse, but I've got a bunch of print commands that should help when trying to swat bugs. 
 I use "Logcat Reader Pro". Filter by "Python". 
@@ -24,7 +23,7 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
-v0.2.5 / 2023/11/19
+v0.2.5 - 2023/11/19
 Global changes:
 
 - Fixed a cropping issue where the cropping tool became unstable when cropping Landscape images with 16:9 ratio
