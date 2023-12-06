@@ -23,6 +23,18 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.2.8 - 2023/12/06
+
+- "Sauce" is now taken into account when saving/loading presets. (Does not change the sauce choice; the sauce that is manually selected will be loaded when a new photo is loaded) (Potential bugs here) (thanks Joegen!)
+- Presets tidied up. No longer crashes if a setting is no longer present (I.e. 'fade')
+- "About" page tidied up. Now if you click on version/date, it will take you to Github.
+- "Highlight" mode set back to "Blend", and base exposure lowered (in order to minimise clipped data)
+- Now a curve is applied before formation, in order to smoothen out the upper-upper values.
+- Fixed a bug where using "Open With" and using a frame with meta-text, the 'capture date' returned 'file not found'
+- Export popup now remembers the "Frame" setting
+- Fixed a bug where clipping indicator would not reset after resetting the slider
+- Fixed a problem where reducing "Purity" would break the picture
+
 v0.2.5 - 2023/11/19
 Global changes:
 
