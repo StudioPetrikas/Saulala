@@ -23,6 +23,9 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.2.9.0 - 2024/01/05
+- Fixed a bug where toggling the "Frame" toggle on the export popup the first time didn't actually changed the setting
+  
 v0.2.8 - 2023/12/06
 
 - "Sauce" is now taken into account when saving/loading presets. (Does not change the sauce choice; the sauce that is manually selected will be loaded when a new photo is loaded) (Potential bugs here) (thanks Joegen!)
