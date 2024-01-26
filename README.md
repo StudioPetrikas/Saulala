@@ -23,6 +23,9 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.3.0.0 - 2024/01/25
+- Fixed a rather elusive bug where the module that parses raw files failed to hand off the image array with rec.709 primaries, instead just used camera primaries. This resulted in a slightly weird starting point image. This only affected Android devices.
+  
 v0.2.10.0 - 2024/01/12
 - Fixed a bug where opening the "Presets" screen would crash the app.
 - Slight tweak to the 'smoothening' curve, slight reduction of the lustre effect.
