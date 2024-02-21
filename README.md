@@ -23,6 +23,21 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.4.1.1 - 2024/02/21
+- Fixed a bug where accidental decrease in luminance of yellows in "Saulala" Sauce's LUT caused a darkening of very light areas.
+- Added a "Tint" slider, which controls the tint of areas that went through "highlight reconstruction".
+- "Sliders" are replaced by "Scrollers"
+- "Scrollers" have haptic feedback (vibrations). However, each phone might treat this differently.
+- Finally fixed double-tap-to-reset (on the scroller).
+- Minor tweaks to Saulala Sauce
+- Increased the gap between the edge of the screen and the end of the slider to try avoid triggering the 'back' gesture
+- Viewport image preview size is now based on the viewport size
+- Added "Haptic Feedback" option in Settings
+- Small optimisations that resulted in ~25% increase in preview update speed
+- Added "Tint" info box
+- Fixed a bug where the clipping indicator would light up after exporting an image.
+- Increased the sensitivity of the scrollers
+  
 v0.3.0.0 - 2024/01/25
 - Fixed a rather elusive bug where the module that parses raw files failed to hand off the image array with rec.709 primaries, instead just used camera primaries. This resulted in a slightly weird starting point image. This only affected Android devices.
   
