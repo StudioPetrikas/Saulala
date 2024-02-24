@@ -23,6 +23,12 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.4.2.2 - 2024/02/24
+- In addition to "Open With" you can now "Edit" with Saulala. Basically any "Edit" button should suggest Saulala.
+- Triple-tapping any slider should reset all sliders to their default positions 
+- Using the Android "Back" button, gesturing "Back" or hitting ESC on desktop will bring you to "Develop" window, or ask you whether you want to quit the app (if already in "Develop" window)
+- If the app was launched via "Edit", it will close (and return you to the gallery app) once you hit "Export" and the export has finished.
+
 v0.4.1.1 - 2024/02/21
 - Fixed a bug where accidental decrease in luminance of yellows in "Saulala" Sauce's LUT caused a darkening of very light areas.
 - Added a "Tint" slider, which controls the tint of areas that went through "highlight reconstruction".
