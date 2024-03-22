@@ -23,6 +23,30 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.5.0.5 - 2024/03/22
+ - Added Jungle Honey sauce
+ - Added Azure Cream sauce
+ - Added rudimentary perspective correction controls
+ - Fixed a bug where rotating the image by 90 degrees would crash the app
+ - Added 'Dynamic Scaling':
+     Once the app is done receiving input, it will display the preview at 2x density (2x size). 
+     The preview image will automatically be replaced by a lower resolution one if any of the sliders are actively receiving input.
+ - Added 'Resampling' after cropping:
+     The preview image will get scaled properly after going through cropping.
+ - Added pinch-to-zoom:
+     Pinch-to-zoom will enlarge the image over the UI. This is the 2x preview density 'stretched out'.
+     Releasing repositions and returns the image to its original size. No pixel peeping!
+ - Overhauled Cropping UI:
+     Out with the crosshairs, in with the circles.
+     It is now a slightly more efficient process (fewer drawn UI objects)
+ - Overhauled 'Sauces' Selection
+ - Moved the 2x update to a different thread to prevent micro-stutters after moving a slider and immediately moving a different slider
+ - Fixed a weird bug where resetting the Power slider after resetting the Purity slider would reset the Power slider, but not update the view
+ - Sauce selection window is a bit more snappy
+ - Added basic OpenEXR support. Android users will have to add ".dng" to their exr file's filename for it to appear in the selector. So the filename should look like "filename.exr.dng". Make sure your files have REC.709 primaries.
+ - Fixed a bug where loading a new image would retain old image's Tilt settings
+ - Added a method of dealing with negative values (offset + gain), instead of just clipping them
+
 v0.4.2.2 - 2024/02/24
 - In addition to "Open With" you can now "Edit" with Saulala. Basically any "Edit" button should suggest Saulala.
 - Triple-tapping any slider should reset all sliders to their default positions 
