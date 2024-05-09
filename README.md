@@ -23,6 +23,14 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.5.1.1 - 2024/05/09
+ - Hopefully improved "Purity". It's once again a post-formation-only process.
+ - Added PowerPToe curve to deal with negatives after applying a camera matrix
+ - Added PowerPToe curve after Purity adjustment to deal with negative values introduced by the Purity adjustment
+ - Slightly inset the blue primary at the beginning of the pipeline to deal with the aggressive blues
+ - Once again reworked 'Saulala' sauce (this is a continuos process)
+ - Fixed a bug where cropping UI would break after rotating the photo 90 degrees
+
 v0.5.0.5 - 2024/03/22
  - Added Jungle Honey sauce
  - Added Azure Cream sauce
