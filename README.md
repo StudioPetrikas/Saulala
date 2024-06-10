@@ -23,6 +23,24 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.7.0.3 - 2024/06/09
+ - Added a workaround for SONY .ARW not loading Camera Matrix
+ - Added Exif support. Saved files will now include Artist (if entered in settings), Saulala version + Sauce name, and most of th phone-provided Exif information (minus location)
+ - Reworked Jungle Honey and Azure Cream sauces from scratch (Jungle Honey now includes a bit of post-formation tint in the darker areas; Azure Cream tidied up and less purplish). The overall feel should be the same.
+ - Reworked file naming. Now, if the file exists, it will just add a _1 increment to the date, instead of adding HHMMSS. Filenames fe really inflated and difficult to track.
+ - Exposure and Power is once again done outside OCIO, to accommodate potential pipeline additions
+ - Target Luminance slider now has a bit of overhead: if required, target luminance can now be gently increased.
+ - "Presets" button will now open a popup that will allow you to generate a development string that you can share with others. The string includes all slider settings, sauce and grain choices. Presets are still available by clicking 'PRESETS' in the popup.
+ - Reworked "Target Black". It is no longer a part of the Sigmoid.
+ - Reworked "Jungle Honey" & "Azure Cream" sauces
+ - Reworked how grain is displayed in the viewfinder. Should be much closer to what's exported.
+ - Slight performance improvements
+ - Updated "About" page
+ - Buttons no longer disappear when clicked
+ - Added a "Sharpen" toggle in Settings. ON by default.
+ - Fixed couple of bugs where saved presets could load values that are slightly off
+ - config.ocio will include the AgX_Default_Contrast curve for each sauce (unless specified otherwise)
+
 v0.5.1.1 - 2024/05/09
  - Hopefully improved "Purity". It's once again a post-formation-only process.
  - Added PowerPToe curve to deal with negatives after applying a camera matrix
