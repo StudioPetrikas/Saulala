@@ -23,6 +23,12 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.7.0.6 - 2024/06/14
+ - Big performance pass
+ - Fixed a missing button icon here and there
+ - Fixed a bug where 'Sat.vs.sat' was applying at '1' (no effect, but a hit to performance)
+ - Added a version tag to the string-preset
+   
 v0.7.0.3 - 2024/06/09
  - Added a workaround for SONY .ARW not loading Camera Matrix
  - Added Exif support. Saved files will now include Artist (if entered in settings), Saulala version + Sauce name, and most of th phone-provided Exif information (minus location)
