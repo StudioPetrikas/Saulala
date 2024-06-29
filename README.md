@@ -23,6 +23,27 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.8.3.1 - 2024/06/30
+ - Added multi-threading (tiling) support. 2x preview loads about 2-4x times faster which makes the sliders feel a bit more snappy
+ - Reworked how sliders interact with the viewport. Viewport updates are now done on a separate thread, so the sliders should feel much smoother, which should result in a much more pleasing user-experience.
+ - Added automatic-cropping for after rotating the image (needs testing, weird interactions with tilt)
+ - Shaved off a few seconds of initial raw loading time
+ - Reduced the amount "Target Black" can be increased by
+ - Changed how 'Grain' is previewed in the viewport. Should match the export much closer now.
+ - Untangled and de-spaghettified a lot of the non-pipeline code. Double-clicks and Triple-clicks on sliders should perform as intended now.
+ - Removed 'Barselino's test' sauce in preparation for Open Beta.
+ - 2x resolution updates now only happen when touch event stops. (I.e. you lift a finger off the slider)
+ - Redrawn most of the clickables from scratch. Out with the PNGs, in with the canvas objects.
+ - Fixed a bug where the Cropping would report incorrect aspect ratio lock chosen
+ - Added a setting that enables saving the 'development string' into the .jpg metadata (OFF by default)
+ - Clicking on the area where the development string should be pasted will paste it on-clicking (instead of requiring to do a 'paste' maneuver)
+ - Fixed a bug where rotation didn't reset on loading a new image
+ - Fixed a bug where entering Crop / Rotate windows will momentarily load the previous preview (caching problem)
+ - Updated Target Luminance and Cool / Warm Balance info boxes
+ - Fixed a bug where you could lose a row of pixels when cropping 
+ - Fixed a bug where "Rotate" slider did not correspond with the angle
+ - Made the sliders better correspond with the haptic ticks and the value indicated
+
 v0.7.0.6 - 2024/06/14
  - Big performance pass
  - Fixed a missing button icon here and there
