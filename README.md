@@ -31,7 +31,6 @@ v0.8.3.1 - 2024/06/30
  - Reduced the amount "Target Black" can be increased by
  - Changed how 'Grain' is previewed in the viewport. Should match the export much closer now.
  - Untangled and de-spaghettified a lot of the non-pipeline code. Double-clicks and Triple-clicks on sliders should perform as intended now.
- - Removed 'Barselino's test' sauce in preparation for Open Beta.
  - 2x resolution updates now only happen when touch event stops. (I.e. you lift a finger off the slider)
  - Redrawn most of the clickables from scratch. Out with the PNGs, in with the canvas objects.
  - Fixed a bug where the Cropping would report incorrect aspect ratio lock chosen
