@@ -23,6 +23,22 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.8.4.4 - 2024/07/30
+- Fixed a bug that broke the clipping indicator
+- Potentially fixed a bug where Tint slider could break the pipeline
+- Fixed a bug where selecting "Common" export size would still export full-sized image
+- Removed duplicate file loading function. ~200 lines of code have been deleted.
+- Reworked 'Purity' from ground up. All camera files will now use (either provided or standard) matrices. (Previously, many dedicated-camera files had their matrices ignored). It is now once again a pre-formation and a post-formation operation.
+- Fixed some loading issues. Sometimes UI was choppy, or unintuitive
+- Added more credits to the 'About' page (please let me know if I got a name wrong)
+- Added AgX Resolve DCTL default hue rotations to the 'AgX / no sauce" sauce.
+- Slight tweak to Saulala Sauce
+- Purity is now "Purity+" (name pending) and moved up in the list of sliders. When increasing the value of the slider, it will gently increase Power (behind the scenes). If you feel it's too much, you can always reduce the Power afterwards using the Power slider.
+- Hopefully fixed a bug where double-clicking and triple-clicking a slider did not update the viewport.
+- Added "3x2" and "2x3" cropping aspect ratios
+- Fixed a bug where the cropping UI would show an incorrect 'selection', when an image was previously cropped using any 'locked' aspect ratio.
+- Cool/Warm balance and Pink/Green balance sliders now have a 'ramping' effect. (Should be more or less the same sensitivity at low values, and become really sensitive at high values)
+
 v0.8.3.1 - 2024/06/30
  - Added multi-threading (tiling) support. 2x preview loads about 2-4x times faster which makes the sliders feel a bit more snappy
  - Reworked how sliders interact with the viewport. Viewport updates are now done on a separate thread, so the sliders should feel much smoother, which should result in a much more pleasing user-experience.
