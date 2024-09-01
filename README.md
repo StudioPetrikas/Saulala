@@ -20,6 +20,7 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Everything is rather slow, since we're running Python and a full-blown OCIO. Be patient while importing/exporting. Rest should be snappy.
 - If your native Android Camera App does not support .DNG capture, use Open Camera form the Android Store.
 - Some Android galleries allow "Open As". Select the .DNG, open as, Saulala. Otherwise, open via launching the app itself.
+- Double-click to reset a single slider, tripple-click to reset them all.
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
