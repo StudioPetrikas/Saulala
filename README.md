@@ -24,6 +24,12 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.8.4.7 - 2024/09/10
+- Fixed a bug where PC versions might have had their 'highlights' mode set to 'clip' instead of 'blend'
+- Fixed a bug gesturing or going back from 'Sauces' screen did not refresh the viewport (while pressing the back button on the top did)
+- Added 'Atlantic Tomato' sauce
+- Added loading animations for PC when drag-and-dropping captures
+
 v0.8.4.4 - 2024/07/30
 - Fixed a bug that broke the clipping indicator
 - Potentially fixed a bug where Tint slider could break the pipeline
