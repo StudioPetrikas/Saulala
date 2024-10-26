@@ -24,6 +24,42 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.8.8.2 - 2024/10/26
+
+Android-specific changes:
+
+- Clicking the viewport background in the 'Develop' screen will cycle through different background colours. White -> Gray -> Black (The background will default to white every launch)
+- UI should scale with resolution (some Android versions have a 'reduced resolution' option that's ON by default for battery saving)
+
+Global changes:
+
+- Removed 'Add frame' selector from the 'Export' modal
+- Removed frame colour selector from the 'Settings' menu
+- Added a 'Frame' button in the 'Develop' screen (Please report any UI issues) ('Frame' button will cycle through frame colour selection)
+- Frame will be drawn as UI, using Kivy (previously it was baked-into the image array, which meant a hit to performance)
+- Added frame text in the preview
+- 'Loading...' text is now drawn instead of it being an image
+- Tidied up loading (some functions were too RAM hungry, creating crashes on some older Androids)
+- Fixed a bug where changing the window size after cropping would crash the app on export
+- Capture date will now try to pull "Created Date" from the EXIF, if it fails it will use "Modified date" (previously always "Modified date")
+- Frame text will now use  Noto Sans Monospace Bold font, instead of OpenCV2's 'Hershey'.
+- Adding a frame will scale the image down slightly (less cropping-off)
+- Added UI animations here and there (more will be added over time)
+- Sauce rework: Sauces now lean heavily on the config.ocio, instead of cube LUTs. They should now be a lot more resilient to breaking. All sauces have been reworked from scratch.
+- Experimental array caching (RAM-saving measure)
+- Grain setting toggle has been removed. Grain can now only be applied as an overlay. (Moving away from pseudo-film mockery)
+- Fixed the clipping indicator turning on and off when releasing a slider
+- Pure log2 function in AgX Log will now be replaced with a log2 function with a linear segment near black (Which will now be controlled with "Target Black" slider). The function itself is identical to the log2 function in AgX Log.
+- Big performance boost
+- Tweaked 'sat vs. sat' slider to reduce the 'darkening' effect of the areas affected by sat vs. sat
+- Viewport drawing improvements; various graphics should load faster and feel snappier
+- Temporarily disabled 2399 sauce
+- Updated "Exposure" and "Grain" descriptions
+- Updated Sauce previews
+- Fixed a bug where loading certain files would crash the app.
+- Added a new mechanism which should help retain tint in the dark areas of the pictures, especially when "Target Black" is used.
+- Sauce adjustment pass. Generally, reds have been nerfed (they were slightly problematic before), sauces lean into their 'taste' more strongly, 'Atlantic Tomato' unleashed its full potential.
+  
 v0.8.4.7 - 2024/09/10
 - Fixed a bug where PC versions might have had their 'highlights' mode set to 'clip' instead of 'blend'
 - Fixed a bug gesturing or going back from 'Sauces' screen did not refresh the viewport (while pressing the back button on the top did)
