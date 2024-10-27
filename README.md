@@ -24,6 +24,13 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.8.8.3 - 2024/10/27
+
+- Attempt to fix a bug where captured date resulted in 'None'
+
+Desktop-specific changes:
+- Fixed an UI issue in the 'About' section, where maximising the window could cause elements to overlap. 
+
 v0.8.8.2 - 2024/10/26
 
 Android-specific changes:
