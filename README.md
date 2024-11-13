@@ -24,7 +24,7 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
-v0.8.9.2 - 2024/11/13
+**v0.8.9.2 - 2024/11/13**
 
 Global changes:
 
@@ -36,11 +36,12 @@ Global changes:
 - Increased the image size by ~1px when frame is ON (create a bit of overlap)
 - Fixed a bug where using "Target Luminance" with "Sharpen" setting set to ON would break the pipeline
 - Switched 'Highlight Reconstruction' from 'Blend' to "Reconstruct 3" (dcraw -H 3 equivalent), because 'Blend' resulted in black highlights in some edge-case captures
+
 Desktop-specifi changes:
 
 - Mouse-wheel will zoom the picture in. Any click will reset the zoom.
 
-v0.8.8.3 - 2024/10/27
+**v0.8.8.3 - 2024/10/27**
 
 - Attempt to fix a bug where captured date resulted in 'None'
 
@@ -83,7 +84,7 @@ Global changes:
 - Added a new mechanism which should help retain tint in the dark areas of the pictures, especially when "Target Black" is used.
 - Sauce adjustment pass. Generally, reds have been nerfed (they were slightly problematic before), sauces lean into their 'taste' more strongly, 'Atlantic Tomato' unleashed its full potential.
   
-v0.8.4.7 - 2024/09/10
+**v0.8.4.7 - 2024/09/10**
 - Fixed a bug where PC versions might have had their 'highlights' mode set to 'clip' instead of 'blend'
 - Fixed a bug gesturing or going back from 'Sauces' screen did not refresh the viewport (while pressing the back button on the top did)
 - Added 'Atlantic Tomato' sauce
