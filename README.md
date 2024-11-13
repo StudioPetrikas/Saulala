@@ -25,6 +25,7 @@ I use "Logcat Reader Pro". Filter by "Python".
 
 ## Changelog:
 v0.8.9.2 - 2024/11/13
+
 Global changes:
 
 - Hopefully fixed the 'None' capture date in the frame's meta information
@@ -35,7 +36,6 @@ Global changes:
 - Increased the image size by ~1px when frame is ON (create a bit of overlap)
 - Fixed a bug where using "Target Luminance" with "Sharpen" setting set to ON would break the pipeline
 - Switched 'Highlight Reconstruction' from 'Blend' to "Reconstruct 3" (dcraw -H 3 equivalent), because 'Blend' resulted in black highlights in some edge-case captures
-
 Desktop-specifi changes:
 
 - Mouse-wheel will zoom the picture in. Any click will reset the zoom.
