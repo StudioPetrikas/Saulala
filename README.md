@@ -24,6 +24,22 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+v0.8.9.2 - 2024/11/13
+Global changes:
+
+- Hopefully fixed the 'None' capture date in the frame's meta information
+- Added .DNG Gainmap support (For lens corrections)
+- Added .DNG Gainmap switch in the settings (ON by default)
+- "Target black" is now a post-formation operation, that takes place after "Purity". Which means the picture will be less likely to exhibit the 'hole' or 'punch-through' error.
+- Further tweaks to most of the sauces
+- Increased the image size by ~1px when frame is ON (create a bit of overlap)
+- Fixed a bug where using "Target Luminance" with "Sharpen" setting set to ON would break the pipeline
+- Switched 'Highlight Reconstruction' from 'Blend' to "Reconstruct 3" (dcraw -H 3 equivalent), because 'Blend' resulted in black highlights in some edge-case captures
+
+Desktop-specifi changes:
+
+- Mouse-wheel will zoom the picture in. Any click will reset the zoom.
+
 v0.8.8.3 - 2024/10/27
 
 - Attempt to fix a bug where captured date resulted in 'None'
