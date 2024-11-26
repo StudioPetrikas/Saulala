@@ -24,6 +24,38 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+
+**v0.8.9.8 - 2024/11/26**
+Global changes:
+
+- Added an option to gently chroma-denoise the picture. The option is found in the Settings, and resets every time a new image is loaded.
+- Tidied up the "Settings" window
+- More improvements to DNG Gainmap (added dithering and improved on the pink-ish cast in the clipped areas)
+- Fixed a bug where enabling noise reduction could mess with the clipping indicator
+- Added process log display (tells you what is happening currently when loading an image)
+- Added a confirmation after a successful export
+- Removed the ability to add frame to certain file types
+- Added DNG 'WarpRectilinear' support (automatic lens distortion correction)
+- Reworked and improved EXIF data support - now copies ALL EXIF data from the camera-native file. Including Fuji.
+- Fixed a bug where reducing the Exposure would also perform a slight subtraction operation
+- 'Rotate' and 'Crop' screens' viewports were updated to match 'Develop' viewport
+- Fixed a bug introduced in v0.8.9.0 where DNGs with faulty / weird gainmap instructions will not load
+- Fixed a bug where 'Loading' text remains red after the error has been cleared
+
+Desktop-specific changes:
+
+- Fixed a bug where using the scroll-wheel on the development sliders would zoom the picture in and out.
+- Cleaned up the interface by removing the unnecessary black bar at the top
+- Fixed a bug where drag-and-dropping an image would not refresh the 'captured' date
+- Sidebar is now fixed-width
+- 'Slide-out' window animation has been changed to 'Fade-out', to reduce unnecessary motion.
+
+Android-specific changes:
+
+- Fixed a bug where going to Settings window and back did not clear the shadow under the viewport
+- Fixed a bug where using "open with" would not load some of the animations
+- Fixed a bug where the shadow under the viewport would not clear when leaving / entering 'Develop' window
+
 **v0.8.9.2 - 2024/11/13**
 
 Global changes:
