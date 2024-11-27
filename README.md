@@ -26,6 +26,7 @@ I use "Logcat Reader Pro". Filter by "Python".
 ## Changelog:
 
 **v0.8.9.8 - 2024/11/26**
+
 Global changes:
 
 - Added an option to gently chroma-denoise the picture. The option is found in the Settings, and resets every time a new image is loaded.
