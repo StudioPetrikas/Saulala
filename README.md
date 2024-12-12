@@ -24,6 +24,20 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+**v0.9.0.4 - 2024/12/11**
+
+Global changes: 
+- Added tiled file loading. Larger files should load about twice as fast, depending on file size and processor threads. (And uses a lot less RAM)
+- Slight Saulala sauce tweak
+- .cube file for AgX sauce has been replaced by an inset + rotation matrices and now more closely match the Resolve DCTL
+- Fixed a bug where using 'Grain' with an image that is smaller than 1000px by 1000px could cause issues with the pipeline
+- Fixed a bug where files that had an Opcode in EXIF Opcode3 that was not WarpRectilinear would not load.
+- Fixed a bug where the development string would not get added to the exported .jpg, unless the 'Presets' button was clicked.
+- Implemented 'clipped-at-the-sensor' area improvement. (Commonly referred to a s 'highlight recovery')
+- Added a temporary (hopefully) fix for files with As Shot White XY.
+
+Desktop-only changes:
+- Fixed a UI bug where the exported path was shown under the viewport after a successful export.
 
 **v0.8.9.8 - 2024/11/26**
 
