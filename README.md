@@ -24,6 +24,11 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+**v0.9.1.6 - 2025/01/31**
+
+Global changes:
+- Fixed a bug introduced in v0.9.1.5 where adding a frame would crash the app on image export
+
 **v0.9.1.5 - 2025/01/30**
 
 Global changes:
