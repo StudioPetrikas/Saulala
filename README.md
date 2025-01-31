@@ -24,6 +24,25 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+**v0.9.1.5 - 2025/01/30**
+
+Global changes:
+- New 'highlight recovery' method (more akin to 'desaturation' than 'reconstruction')
+- 'Classic saturation' formula has been replaced with a Sat vs. Sat formula (for the 'Purity+' slider).
+- Added more tiled processing here and there, reducing RAM usage and increasing processing speed
+- Export size selection rework - a 50% option will appear if the original dimensions are large enough
+- Added new 'Gilded Mint' sauce
+- Adjusted 'Atlantic Tomato' sauce to be slightly more versatile and slightly less brown-feeling.
+- 'Gilded Mint' and 'Azure Cream" will use an AgX-like curve with a slightly increased shoulder
+- Disabled the shadow under the viewport
+- Image will now be automatically reloaded if 'Gainmap' switch was toggled
+- Removed Green / Peach sauce
+- Increased overlap between the image and the frame by a few pixels to hopefully fix a problem where a black edge my appear when adding a frame
+- Re-added basic X3F file support
+
+Desktop-only changes:
+- Added the ability to change background colour (temporary solution - small bubble in the corner)
+
 **v0.9.0.4 - 2024/12/11**
 
 Global changes: 
