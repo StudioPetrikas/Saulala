@@ -24,6 +24,24 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+
+**v0.9.1.8 - 2025/02/08**
+Global Changes:
+
+- Undid a regression where "Target Luminance" was placed before the picture formation
+- Tweaked the AgX-like_Increased_Shoulder curve to better match AgX_Default_Contrast (previously matched the wrong curve)
+- Code cleanup / slight performance gains
+- Added a custom matrix for Fuji RAF files
+- Reduced the effect of "Target Black" slider
+- Small tweaks to Saulala, Azure Cream and Gilded Mint sauces
+- Double-clicking "Default / None (AgX)" Sauce will switch to AgX Kraken (full sRGB pipeline with no rotations). For debugging purposes. This setting does not "stick".
+- Moved 'Purity+' process to tiled processing (performance boost)
+
+Desktop-only changes:
+
+- Fixed a bug where the 'back' arrow of the 'Export' modal could become misplaced after exporting once and then changing the window size
+- Reduced info text size that's displayed on the viewport
+
 **v0.9.1.6 - 2025/01/31**
 
 Global changes:
