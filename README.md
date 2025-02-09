@@ -26,6 +26,7 @@ I use "Logcat Reader Pro". Filter by "Python".
 ## Changelog:
 
 **v0.9.1.8 - 2025/02/08**
+
 Global Changes:
 
 - Undid a regression where "Target Luminance" was placed before the picture formation
