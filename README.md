@@ -24,7 +24,17 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+**v0.9.2.1 - 2025/02/28**
 
+Global Changes:
+
+- Fixed a bug that caused 'handles' in the Cropping UI to get detached from the cursor, when the cursor left the circle of the handle.
+- Added EXIF 'sRGB' tag (Different from Colour Profile tag). Lack of this 'sRGB' tag may cause certain Windows applications to display the output JPG incorrectly
+- Added centre crosshair and 'thirds' cropping guides when any of the cropping handles are being moved
+- Slightly modified the approach to sauces + re-tweaked all the sauces. Pictures will appear more colourful on load and should exhibit less noise
+- Switched the de-mosaicing algorithm to DHT
+- Reduced the impact of the 'Purity+' slider
+  
 **v0.9.1.8 - 2025/02/08**
 
 Global Changes:
