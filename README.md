@@ -3,7 +3,11 @@ Issue tracker for Saulala beta - A free camera-native file (raw) developer, that
 
 <a href='https://play.google.com/store/apps/details?id=com.saulala.saulala&hl=en_GB&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img width="200px" height="auto" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
 
+Website:
 www.saulala.com
+
+Discourse:
+https://saulala.discourse.group
 
 ## Usage instructions:
 https://youtu.be/1JoZ9NqBmjs?t=315
