@@ -28,6 +28,25 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+**v0.9.2.6 - 2025/03/31**
+Global Changes:
+
+- Fixed a “Camera Neutral XY” 'highlight' issue 
+- Addressed an X-Trans demosaicing issue reported on GitHub. X-Trans sensors will now use “Linear” demosaicing method.
+- Adjusted “Grain”: it will be faster and contain fewer darker ‘grains’
+- Added the “Cardinal Zest” Sauce
+- Improved the pipeline by using ino's "print"-like process
+- Added a new persistent setting that replaces the 'Sharpen' setting. You can now pick from "Softer", "Neutral" or "Sharper"
+- Slight adjustment of the "Gilded Mint" sauce
+
+Desktop-only changes:
+
+- Added experimental batch-processor. Currently available by dragging-and-dropping a folder while in the "Intro" window. It will prompt you to enter a Saulala development string, and select the export size. Click "Run" and wait patiently for it iterate through the files in the folder. It will create a 'Saulala_Output' sub-folder in the source folder, and produce .JPGs there. All settings, except 'Denoising', should be loaded from the App.
+
+Mobile-only changes:
+
+* Fixed a bug where the background would only change while clicking the very edge of the viewport, instead of the whole viewport.
+
 **v0.9.2.1 - 2025/02/28**
 
 Global Changes:
