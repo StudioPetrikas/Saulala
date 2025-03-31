@@ -29,6 +29,7 @@ I use "Logcat Reader Pro". Filter by "Python".
 
 ## Changelog:
 **v0.9.2.6 - 2025/03/31**
+
 Global Changes:
 
 - Fixed a “Camera Neutral XY” 'highlight' issue 
