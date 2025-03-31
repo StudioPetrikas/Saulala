@@ -36,7 +36,7 @@ Global Changes:
 - Addressed an X-Trans demosaicing issue reported on GitHub. X-Trans sensors will now use “Linear” demosaicing method.
 - Adjusted “Grain”: it will be faster and contain fewer darker ‘grains’
 - Added the “Cardinal Zest” Sauce
-- Improved the pipeline by using ino's "print"-like process
+- Improved the pipeline by using Barselino's "print"-like process
 - Added a new persistent setting that replaces the 'Sharpen' setting. You can now pick from "Softer", "Neutral" or "Sharper"
 - Slight adjustment of the "Gilded Mint" sauce
 
