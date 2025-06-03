@@ -28,6 +28,22 @@ I use "Logcat Reader Pro". Filter by "Python".
 - Settings / Presets are deleted on app Uninstall
 
 ## Changelog:
+
+**v0.9.3.2 - 2025/06/03**
+
+Global changes:
+
+- Fixed a rare bug where .DNGs with a GainMap would exhibit corrupted areas,
+- Made adjustments to Grain as exported frames would differ too much from one another and create a flashing effect,
+- Added a Frame option that does not have a border, nor meta text, just the date of capture at the bottom-ish right-ish side,
+- Clicking the Frame icon will always disable the active Frame first, THEN cycle through the frame options.,
+- Possibly addressed the issue where resetting the sliders only updated the viewport with low-resolution version of the image,
+- Mega code-cleanup which might lead to some rare bugs,
+- "Purity+" has been renamed to "Vibrancy",
+- "Target black" slider now works exponentially (low sensitivity at the beginning of the slider, high sensitivity at the end of the slider),
+- 'Develop' sliders can now be controlled with keyboard arrows,
+- High-quality viewport updates will happen more reliably
+
 **v0.9.2.6 - 2025/03/31**
 
 Global Changes:
