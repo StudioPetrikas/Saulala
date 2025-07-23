@@ -33,6 +33,7 @@ I use "Logcat Reader Pro". Filter by "Python".
 
 Global Changes:
 
+Disclaimer: Big pipeline update - your saved presets might not work as expected.
 - Viewport and pipeline is now powered by OpenGL, which means nearly instant viewport updates, no more sluggish sliders, full-sized images in the viewport and many more upsides (and some downsides)
 - Added 'Current Sauce' indicator in the 'Develop' screen
 - Fixed a bug where cropping would break the frame display in the viewport 
@@ -41,6 +42,7 @@ Global Changes:
 - Screen is now a Modal (functionally no change, bugs possible)
 - Viewport zoom is capped at 100% (1:1) 
 - Added a small 'hook' at the end of the red primary flight (should improve 'bright' things like fire, sunsets, etc.)
+- Disabled "Tint" slider, for a variety of reasons
 
 Desktop-only changes:
 
