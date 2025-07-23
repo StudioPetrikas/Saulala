@@ -29,6 +29,27 @@ I use "Logcat Reader Pro". Filter by "Python".
 
 ## Changelog:
 
+**v0.9.4.6 - 2025/07/23**
+
+Global Changes:
+
+- Viewport and pipeline is now powered by OpenGL, which means nearly instant viewport updates, no more sluggish sliders, full-sized images in the viewport and many more upsides (and some downsides)
+- Added 'Current Sauce' indicator in the 'Develop' screen
+- Fixed a bug where cropping would break the frame display in the viewport 
+- Fixed a bug where the "frame" toggles in the settings were loaded incorrectly 
+- No longer using OpenColorIOSauces are now stored in .JSON files"Presets"
+- Screen is now a Modal (functionally no change, bugs possible)
+- Viewport zoom is capped at 100% (1:1) 
+- Added a small 'hook' at the end of the red primary flight (should improve 'bright' things like fire, sunsets, etc.)
+
+Desktop-only changes:
+
+- Removed the 'change background' button at the bottom-left corner. The viewport background will change by clicking on it.
+
+Mobile-only changes:
+
+- Images larger than 7500px in one dimension will be resized using Lanczos method
+
 **v0.9.3.2 - 2025/06/03**
 
 Global changes:
