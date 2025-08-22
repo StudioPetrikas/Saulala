@@ -29,6 +29,35 @@ I use "Logcat Reader Pro". Filter by "Python".
 
 ## Changelog:
 
+**v0.9.5.4 - 2025/08/22**
+
+Global Changes
+
+- Fixed a bug when loading an image with a lens-correction tag but no actual lens-correction would attempt to perform the lens corrections
+- RAM-saving measures when loading and saving images
+- 'Grain' will now be functionally applied after resizing the image, when a smaller size is set in the Export box
+- 'Grain' preview will no longer scale with viewport zoom level. This means that it would more closely match "Common" export size when zoomed out. If you zoom the viewport in at 100% it would closely match "Full" export size. This is a compromise and should be slightly more intuitive.
+- Tweaks to 'Saulala' sauce
+- Updated Rawpy to 0.25.1 (which updates Libraw to v0.21.4)
+- Reworked "Rotate" screen; instead affecting the full image every tool click, it now only affects the preview and then 'writes' the changes before you move to the "Crop" screenFixed a bug where using any of the buttons in the "Rotate" screen after cropping would produce an unexpected result
+- Fixed an incorrect value on the "Target Black" slider
+- Fixed an issue where the frame would not preview correctly if the image was taller than it is wide, but reached the edges of the screen width-wise, but not height-wise (basically incorrect scale parameter)
+- Added the 'Juicy Watermelon' sauce
+- Added sections in the 'Sauces' screen
+- Reworked the way Sauces are loaded. Removed a lot of hard-coded stuff, and made it more modular, potentially making it easier to add new sauces in the future
+- Fixed a bug where small images that were already at 100% could be attempted to zoom in, creating a UI bug.
+- 'Presets' have been made obsolete and removed from the app.
+
+Mobile-only Changes
+
+- Bumped the target API version to 35 (required by Google)
+- Added a black space at the top of the app to accommodate the status bar (API 35 makes the app full-screen, ignoring the status bar)
+- Tidied up the screens that are reachable via "Menu"
+
+macOS-only Changes:
+
+- Reduced the scale of the UI slightly
+
 **v0.9.4.6 - 2025/07/23**
 
 Global Changes:
