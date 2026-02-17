@@ -1,32 +1,15 @@
-# Saulala
-Issue tracker for Saulala beta - A free camera-native file (raw) developer, that uses AgX as its backbone. 
+This is a tombstone of Saulala-Beta (Python/Kivy)
 
-<a href='https://play.google.com/store/apps/details?id=com.saulala.saulala&hl=en_GB&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img width="200px" height="auto" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+The new Web-App is available here:
 
 Website:
-www.saulala.com
+https://www.saulala.com
+
+Web App: 
+https://app.saulala.com
 
 Discourse:
 https://saulala.discourse.group
-
-## Usage instructions:
-https://youtu.be/1JoZ9NqBmjs?t=315
-
-I recommend installing a logcat reader of sorts. Error reporting is still sparse, but I've got a bunch of print commands that should help when trying to swat bugs. 
-I use "Logcat Reader Pro". Filter by "Python". 
-
-## Crash-course:
-
-- The app doesn't connect to the internet, you can firewall it if you wish
-- All photos are tagged with sRGB colour profile. Check if your Android display settings are set to "Natural" or "sRGB" to see what you're getting.
-- Photos are saved to Pictures/Saulala
-- There's a menu hidden in the top left Saulala icon.
-- If your native Android Camera App does not support .DNG capture, use Open Camera form the Android Store.
-- Some Android galleries allow "Open As". Select the .DNG, open as, Saulala. Otherwise, open via launching the app itself.
-- Double-click to reset a single slider, tripple-click to reset them all.
-- Settings are deleted on app Uninstall
-
-## Changelog:
 
 **v0.9.5.4 - 2025/08/22**
 
